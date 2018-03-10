@@ -15,6 +15,7 @@
 		654E081B2054329B00EDC17B /* VigenereCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E081A2054329B00EDC17B /* VigenereCipher.swift */; };
 		654E081D2054429100EDC17B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 654E081C2054429100EDC17B /* README.md */; };
 		654E081F2054438400EDC17B /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 654E081E2054438400EDC17B /* screenshot.png */; };
+		654E0822205454DD00EDC17B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 654E0821205454DD00EDC17B /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		654E081A2054329B00EDC17B /* VigenereCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigenereCipher.swift; sourceTree = "<group>"; };
 		654E081C2054429100EDC17B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		654E081E2054438400EDC17B /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		654E0821205454DD00EDC17B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				654E081C2054429100EDC17B /* README.md */,
 				654E081E2054438400EDC17B /* screenshot.png */,
+				654E0821205454DD00EDC17B /* LICENSE */,
 			);
 			name = Github;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				654E080A20542D9C00EDC17B /* Assets.xcassets in Resources */,
 				654E080D20542D9C00EDC17B /* Main.storyboard in Resources */,
 				654E081F2054438400EDC17B /* screenshot.png in Resources */,
+				654E0822205454DD00EDC17B /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
