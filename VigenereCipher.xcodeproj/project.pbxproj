@@ -11,6 +11,10 @@
 		654E080820542D9C00EDC17B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E080720542D9C00EDC17B /* ViewController.swift */; };
 		654E080A20542D9C00EDC17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E080920542D9C00EDC17B /* Assets.xcassets */; };
 		654E080D20542D9C00EDC17B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654E080B20542D9C00EDC17B /* Main.storyboard */; };
+		654E08192054328300EDC17B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E08182054328300EDC17B /* String+Extension.swift */; };
+		654E081B2054329B00EDC17B /* VigenereCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E081A2054329B00EDC17B /* VigenereCipher.swift */; };
+		654E081D2054429100EDC17B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 654E081C2054429100EDC17B /* README.md */; };
+		654E081F2054438400EDC17B /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 654E081E2054438400EDC17B /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		654E080C20542D9C00EDC17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		654E080E20542D9C00EDC17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654E080F20542D9C00EDC17B /* VigenereCipher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VigenereCipher.entitlements; sourceTree = "<group>"; };
+		654E08182054328300EDC17B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		654E081A2054329B00EDC17B /* VigenereCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigenereCipher.swift; sourceTree = "<group>"; };
+		654E081C2054429100EDC17B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		654E081E2054438400EDC17B /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				654E080420542D9C00EDC17B /* VigenereCipher */,
+				654E08202054438800EDC17B /* Github */,
 				654E080320542D9C00EDC17B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,14 +62,49 @@
 		654E080420542D9C00EDC17B /* VigenereCipher */ = {
 			isa = PBXGroup;
 			children = (
+				654E08162054325800EDC17B /* Extensions */,
+				654E08152054325200EDC17B /* Models */,
+				654E08172054325F00EDC17B /* ViewControllers */,
 				654E080520542D9C00EDC17B /* AppDelegate.swift */,
-				654E080720542D9C00EDC17B /* ViewController.swift */,
 				654E080920542D9C00EDC17B /* Assets.xcassets */,
 				654E080B20542D9C00EDC17B /* Main.storyboard */,
 				654E080E20542D9C00EDC17B /* Info.plist */,
 				654E080F20542D9C00EDC17B /* VigenereCipher.entitlements */,
 			);
 			path = VigenereCipher;
+			sourceTree = "<group>";
+		};
+		654E08152054325200EDC17B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				654E081A2054329B00EDC17B /* VigenereCipher.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		654E08162054325800EDC17B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				654E08182054328300EDC17B /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		654E08172054325F00EDC17B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				654E080720542D9C00EDC17B /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		654E08202054438800EDC17B /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				654E081C2054429100EDC17B /* README.md */,
+				654E081E2054438400EDC17B /* screenshot.png */,
+			);
+			name = Github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654E081D2054429100EDC17B /* README.md in Resources */,
 				654E080A20542D9C00EDC17B /* Assets.xcassets in Resources */,
 				654E080D20542D9C00EDC17B /* Main.storyboard in Resources */,
+				654E081F2054438400EDC17B /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				654E080820542D9C00EDC17B /* ViewController.swift in Sources */,
+				654E08192054328300EDC17B /* String+Extension.swift in Sources */,
 				654E080620542D9C00EDC17B /* AppDelegate.swift in Sources */,
+				654E081B2054329B00EDC17B /* VigenereCipher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
